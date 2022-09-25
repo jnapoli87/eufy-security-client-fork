@@ -4477,6 +4477,7 @@ export const DeviceProperties: Properties = {
         [PropertyName.DeviceChirpTone]: DeviceChirpToneEntrySensorProperty,
         [PropertyName.DeviceState]: DeviceStateProperty,
         [PropertyName.DeviceWifiRSSI]: DeviceWifiRSSIEntrySensorProperty,
+        [PropertyName.DeviceWifiSignalLevel]: DeviceWifiSignalLevelProperty
     },
     [DeviceType.SMART_SAFE_7400]: {
         ...GenericDeviceProperties,
